@@ -7,7 +7,7 @@ function favouriteMovie(operation, movie) {
     }if(operation=='remove'){
         movies.pop(movie)
     }
-    return movies
+    return movies;
 }
 
 module.exports = favouriteMovie;
