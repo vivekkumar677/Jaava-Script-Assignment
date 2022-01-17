@@ -13,7 +13,7 @@ function getEven(arr) {
        return num%2==0
    }
    var result = arr.filter(isDivis)
-   return result
+   return result;
 
 }
 
@@ -26,7 +26,7 @@ function multiplyByN(arr, n) {
         Write you code below
     */
    arr.forEach((element, i, a) => a[i] = element*n )
-   return arr
+   return arr;
 }
 
 function removeNthElement(arr, n) {
